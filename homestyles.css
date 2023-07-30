@@ -1,0 +1,103 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f1f1f1;
+}
+
+.toplist1 {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #ff9f1a;
+  /*radiant yellow*/
+  overflow: hidden;
+}
+
+.toplist1 li {
+  float: left;
+}
+
+.toplinks {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.toplinks:hover {
+  background-color: #111;
+  /*basically black*/
+}
+
+.toplinks1 {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.toplinks1:hover {
+  background-color: #111;
+}
+
+.active {
+  background-color: #ff4d4d;
+  /*light red*/
+}
+
+h1 {
+  text-align: center;
+  margin-top: 50px;
+  color: black;
+}
+
+.Trip {
+  width: 90%;
+  /*width of the area underneath 'itinerary for the 6 days'*/
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  color:red;
+}
+
+.Trip p {
+  font-style: italic;
+  color: black;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table td {
+  padding: 10px;
+  text-align: center;
+}
+
+table tr:first-child {
+  background-color:#ff9f1a;
+  /*radiant yellow*/
+  color: white;
+}
+
+table tr:nth-child(2) {
+  background-color: #f2f2f2;
+  /*whitish*/
+}
+
+table tr td strong {
+  color: black;
+}
+
+.Trip h2 {
+  color: red;
+}
+
+.Trip ul {
+  list-style-type: disc;
+  margin-left: 20px;
+  color: black;
+}

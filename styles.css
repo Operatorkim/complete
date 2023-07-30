@@ -1,0 +1,105 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f1f1f1;
+}
+
+.toplist1 {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #333;
+  overflow: hidden;
+}
+
+.toplist1 li {
+  float: left;
+}
+
+.toplinks {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.toplinks:hover {
+  background-color: #111;
+}
+
+.toplinks1 {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.toplinks1:hover {
+  background-color: #111;
+}
+
+.active {
+  background-color: #2bcbba;
+  /*maximum blue*/
+}
+
+h1 {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.Register {
+  width: 400px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.Register label {
+  font-weight: bold;
+  display: block;
+  margin-top: 10px;
+}
+
+.Register input[type="text"],
+.Register input[type="number"],
+.Register select {
+  width: 100%;
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.Register input[type="submit"] {
+  width: 100%;
+  background-color: #2bcbba;
+  /*maximum blue german pallete*/
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.Register input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+.Register p {
+  margin-top: 20px;
+  font-size: 12px;
+}
+
+.Register ul {
+  margin-top: 10px;
+  font-size: 12px;
+}
+
+.Register li {
+  color: blue;
+}
